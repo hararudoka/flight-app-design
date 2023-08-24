@@ -1,0 +1,130 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10px"/>
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cornerStyle="large"
+            app:elevationLevel="focused"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <net.skyscanner.backpack.text.BpkText
+                    style="@style/bpkTextHeading3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Your flight number:"
+                    android:textAlignment="center" />
+                <net.skyscanner.backpack.text.BpkText
+                    style="@style/bpkTextHeading1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BA2490"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </net.skyscanner.backpack.card.BpkCardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40px"/>
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cornerStyle="large"
+            app:elevationLevel="focused">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <net.skyscanner.backpack.text.BpkText
+                    style="@style/bpkTextHeading3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="From"
+
+                    android:textAlignment="center" />
+
+                <net.skyscanner.backpack.text.BpkText
+                    style="@style/bpkTextHeading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="LON at 4:00PM"
+
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+
+        </net.skyscanner.backpack.card.BpkCardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40px"/>
+
+        <net.skyscanner.backpack.card.BpkCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cornerStyle="large"
+            app:elevationLevel="focused">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <net.skyscanner.backpack.text.BpkText
+                    style="@style/bpkTextHeading3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To"
+
+                    android:textAlignment="center" />
+
+                <net.skyscanner.backpack.text.BpkText
+                    style="@style/bpkTextHeading2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ATL at 5:00AM"
+
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+
+        </net.skyscanner.backpack.card.BpkCardView>
+
+    </LinearLayout>
+</RelativeLayout>
